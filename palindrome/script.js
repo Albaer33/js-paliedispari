@@ -10,8 +10,8 @@ else {
 }
 // Creare una funzione per capire se la parola inserita è palindroma
 function palindrome(word) {
-    let reverseWord = [];
-    for (i = word.length-1; i >= 0; i--) {
+    let reverseWord = '';
+    for (let i = word.length-1; i >= 0; i--) {
         reverseWord += word[i];
     }
     if (word === reverseWord) {
